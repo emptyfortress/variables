@@ -1,5 +1,5 @@
 <template>
-  <q-page class="pa-4 text-gray-500">
+   <q-page class="pa-4 text-gray-500">
     <span> Current User: {{ id }}</span>
 
     <p class="text-sm mt-4">
@@ -8,8 +8,8 @@
         <li class="cursor-pointer text-dark-100 px-4 py-2" v-for="item in user.otherIds" :key="item" @click="router.push({name:'user-id-detail', params:{id: item}})"> {{item}}</li>
       </ul>
     </p>
-    
-    </q-page>
+
+  </q-page>
 </template>
 
 <script setup="props" lang="ts">

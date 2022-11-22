@@ -3,7 +3,7 @@ import App from './App.vue'
 
 import 'uno.css'
 import '@unocss/reset/tailwind.css'
-import 'src/styles/main.css'
+import 'src/styles/main.scss'
 
 const app = createApp(App)
 const modules = import.meta.glob<any>('/src/modules/*.ts', { eager: true })

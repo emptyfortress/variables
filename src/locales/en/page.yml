@@ -1,2 +1,4 @@
 index:
   msg: 'left menus are auto generate by vite-plugin-pages and vite-plugin-vue-layouts'
+dialog:
+  msg: 'Fuck you'
