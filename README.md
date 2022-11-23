@@ -1,4 +1,4 @@
-<img src="src/assets/img/jetbrain_beam.png"  width="200px">
+<img src="src/assets/img/logo.png"  width="200px">
 
 Many thanks for [JetBrains](https://jb.gg/OpenSourceSupport) Open Source Development license for this project.
 
