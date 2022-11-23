@@ -33,6 +33,8 @@ This starter template also includes an plain :
 
 Разработка в ветке main, есть первоначальный шаблон в ветке backup.
 
+Разработка в ветке main, есть первоначальный шаблон в ветке backup.
+
 ## HOW TO USE
 
 Установка и запуск
