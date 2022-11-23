@@ -2,14 +2,15 @@
 
 This is product of Docsvision company.
 
-## `Vite 2.x + Vue 3.x + quasar 2.x starter ⚡`
+# CSS переменные 🌹
 
-**offical quasar vite cli is release.🌹** ,and you can go to official web site for more detail. then this branch will be
-the default branch. then some of the third part will migrate to this branch later.
+**Перевод веб-клиента на css variables**:
 
-- [x] - [@quasar/vite-plugin](https://quasar.dev/start/vite-plugin) [official released]
-- [x] - [quasar 2.x](https://github.com/quasarframework/quasar)
-- [x] - [vite 2.x](https://github.com/vitejs/vite)
+основная цель - избавиться от светофора на страницах и дать юзерам возможность выбирать и настраивать **primary** цвета и темы.
+
+- [x] - vue 3
+- [x] - vite 2.x
+- [x] - quasar 2.x
 
 This starter template also includes an plain :
 
@@ -23,48 +24,24 @@ This starter template also includes an plain :
 
 ## Out of box functions
 
-- [x] - api base axios
-- [x] - pina as default state management
-- [x] - backend service write in sprint boot**Coming soon**]
-- [x] - auth2 login with [spring authorization server](https://github.com/fyeeme/spring-cloud-example)
+- [x] - Поиск переменной по имени
+- [x] - Копирование значения
+- [x] - Примеры использования
+- [x] - Поиск по компоненте
 
-## FAQ
+## Ветки
 
-1. why not use [Windi CSS](https://github.com/windicss/windicss) or [Tailwind css](https://github.com/tailwindlabs/tailwindcss)?
-   - because Unocss is much more powerful than windi css[windi css is master faster than **tailwind**] but provide consistent api.
-2. why not use [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) or [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import)
-   - because ts with volar provider best type support, and you don't need them anymore, but if you still want to use them ,just free to try.
-
-## TODO
-
-some of the other are existed to use for improving your efficiency when use vue. they are waiting for discovered.
-
-## Checklist
-
-When you use this template, try follow the checklist to update your info properly
-
-- [ ] Change the name and version in `package.json`
-- [ ] Change the title in `index.html`
-- [ ] Change the hostname in `vite.config.ts`
-- [ ] Change the favicon in `public`
-- [ ] Clean up the READMEs and remove routes
-- [ ] Clean up `layouts` and `pages` folder
-
-And, enjoy :)
+Разработка в ветке main, есть первоначальный шаблон в ветке backup.
 
 ## HOW TO USE
 
-pnpm is recommended to use. also you use npm two.
-
-```shell
-npm i -g pnpm
-pnpm install
-pnpm run dev
-```
-
-or
+Установка и запуск
 
 ```shell
 npm install
 npm run dev
 ```
+
+## Превью
+
+Посмотреть в работе можно здесь:
