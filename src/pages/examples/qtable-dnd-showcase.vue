@@ -1,5 +1,6 @@
 <template lang="pug">
 q-page(padding)
+	p.m-8 fuck
 	q-table(:rows="rows" :columns="columns" row-key="name")
 		template(#body-cell-drag-handle="props")
 			q-td(:props="props")
